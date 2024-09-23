@@ -3,6 +3,4 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    image = "baby_pic.jpg"
-    image.show()
-    return "Hello MSOE"
+    return "baby_pic.jpg".show()
